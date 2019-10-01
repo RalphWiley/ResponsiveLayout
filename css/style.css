@@ -3,11 +3,11 @@
 ==================================== */
 * {
     box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 body {
-    background-color: lightgray;
-    /* line-height: 1.6; */
+    line-height: 1.6;
 }
 
 li {
@@ -17,6 +17,10 @@ li {
     text-align: center;
     margin: 5px;
     border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 a { 
@@ -25,7 +29,7 @@ a {
 }
 
 /* ================================= 
-  Base Layout Styles
+  Header Styles
 ==================================== */
 .wrap {
     margin: 0 auto;
@@ -33,13 +37,9 @@ a {
 .container {
     padding-left: 1em;
     padding-right: 1em;
-}
-
-img {
-    width: 60%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: #d3d3d336;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .main-nav {
@@ -47,15 +47,94 @@ img {
     padding-bottom: 25px;
 }
 
-.main-footer {
-	padding: 2em 0;
-	background: #d9e4ea;
-    text-align: center;
-}
-
 .name {
     text-align: center;
 }
+
+.bio {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.proImage {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact {
+    color:rgba(0, 0, 0, 1); 
+    margin-left:5px;
+}
+
+/* ================================= 
+  Portfolio Styles
+==================================== */
+
+.portfolio {
+    padding-top: 25px;
+}
+
+.title {
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+.portImage {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pageTitle {
+    font-weight: 200;
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 25px;
+}
+
+/* ================================= 
+  Header Styles
+==================================== */
+
+.main-footer{
+    padding: 2em 0 6em 0;
+    background: #d3d3d336;
+    font-size: 10px;
+    font-weight: 800;
+}
+
+.footer {
+    border-top: solid 1px rgba(0, 0, 0, 0.25);
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: .5px;
+}
+
+.footer-name {
+    float:left; 
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.back-to-top {
+    float:right; 
+    margin-right: 5px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
 
 /* ================================= 
   Media Queries
