@@ -73,8 +73,34 @@ a {
 ==================================== */
 
 .portfolio {
+    padding-top: 35px;
+    background-color: white;
+}
+
+.skills {
     padding-top: 25px;
     background-color: white;
+    padding-bottom: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ul.soft-skills {
+    padding: 0;
+    text-align: center;
+}
+  
+.soft-skills li {
+    border-radius: 6px;
+    display: inline-block;
+    background: #ff9904;
+    color: white;
+    padding: 5px 10px;
+    margin: 2px;
+}
+
+.soft-skills li:nth-child(odd) {
+    background: #0399ff;
 }
 
 .title {
@@ -193,6 +219,13 @@ a {
         float: left;
     }
 
+    .skills {
+        margin-top: 45px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+    }
+
     .chat {
         width: 80%;
         margin: auto;
@@ -259,8 +292,14 @@ a {
         padding-left: 10px;
     }
 
+    .skills {
+        margin-left: 25px;
+        margin-right: 25px;
+        padding-bottom: 75px;
+    }
+
     .chatting {
-        width: 80%
+        width: 80%;
         margin: auto;
     }
 
