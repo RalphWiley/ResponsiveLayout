@@ -8,7 +8,7 @@
 
 body {
     line-height: 1.6;
-    background-color: #d3d3d336;
+    background-color: #6e00ff14;
 }
 
 li { 
@@ -35,6 +35,7 @@ a {
 .wrap {
     margin: 0 auto;
 }
+
 .container {
     padding-left: 1em;
     padding-right: 1em;
@@ -45,6 +46,7 @@ a {
 .main-nav {
     list-style-type: none;
     padding-bottom: 25px;
+    padding-top: 35px;
 }
 
 .name {
@@ -61,6 +63,7 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid grey;
 }
 
 .contact {
@@ -176,6 +179,10 @@ ul.soft-skills {
         width: 100%;  
         margin: 0 auto;
         padding-bottom: 225px;
+    }
+
+    .main-nav {
+        text-align: center;
     }
 
     .main-nav li{
