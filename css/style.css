@@ -11,19 +11,6 @@ body {
     background-color: #6e00ff14;
 }
 
-li { 
-    border: 1px solid white;
-    background-color: white;
-    height: 35px;
-    text-align: center;
-    margin: 5px;
-    border-radius: 5px;
-    padding: 5px;
-    font-size: 15px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
 a { 
     text-decoration: none;
     color: black;
@@ -47,6 +34,19 @@ a {
     list-style-type: none;
     padding-bottom: 25px;
     padding-top: 35px;
+}
+
+.main-nav li {
+    border: 1px solid white;
+    background-color: white;
+    height: 35px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .name {
@@ -169,6 +169,10 @@ ul.soft-skills {
     text-transform: uppercase;
 }
 
+.full-nav {
+    display: none;
+}
+
 
 /* ================================= 
   Media Queries
@@ -244,6 +248,21 @@ ul.soft-skills {
 
     #contact {
         padding-bottom: 25px;
+    }
+
+    .back-to-top {
+        display: none;
+    }
+
+    .full-nav {
+        display: inline;
+    }
+
+    .full-nav li{
+        float: right; 
+        margin-left: 25px;
+        margin-top: 20px;
+        list-style-type: none;
     }
 
 }
