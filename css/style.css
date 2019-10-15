@@ -270,7 +270,7 @@ ul.soft-skills {
 @media (min-width:1024px){
 
     .container {
-        padding-bottom: 380px;
+        padding-bottom: 325px;
     }
 
     .bio {
@@ -280,6 +280,8 @@ ul.soft-skills {
 
     .proImage {
         margin-right: 25px;
+        height: 220px;
+        margin-top: 10px;
     }
 
     .pages {
@@ -303,7 +305,7 @@ ul.soft-skills {
 
     .container ul{
         float: right;
-        margin-top: 25px;
+       margin-bottom: 20px;
     }
 
     .main-nav li{
